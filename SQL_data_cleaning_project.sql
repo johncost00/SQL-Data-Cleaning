@@ -125,6 +125,8 @@ delete
 From RowNumCTE
 Where row_num > 1
 
+
+
 ----- If I were to remove the unused columns, this is how I'd do it:
 
 ----------ALTER TABLE DataCleaningProject.dbo.NashvilleHousing
@@ -135,6 +137,4 @@ Where row_num > 1
 -- Hello!
 --- Thank you for viewing my data-cleaning project!
 ---- Please provide any feedback or any questions you might have
-
--- Please provide me any feedback or questions!
 
