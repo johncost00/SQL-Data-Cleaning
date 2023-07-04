@@ -125,15 +125,16 @@ delete
 From RowNumCTE
 Where row_num > 1
 
-
-
--- Hello!
---- Thank you for viewing my data cleaning project!
----- I would like to add that I would remove the unused columns that I split up on step 3, but I'd like to keep the originals so you can view how I maniupulated the data
 ----- If I were to remove the unused columns, this is how I'd do it:
 
 ----------ALTER TABLE DataCleaningProject.dbo.NashvilleHousing
 ----------DROP COLUMN OwnerAddress, TaxDistrict, PropertyAddress, SaleDate
+
+
+
+-- Hello!
+--- Thank you for viewing my data-cleaning project!
+---- Please provide any feedback or any questions you might have
 
 -- Please provide me any feedback or questions!
 
